@@ -1,0 +1,25 @@
+.banner-section {
+  width: 50%;
+  align-self: center;
+}
+
+@media screen and (max-width: 767px) {
+  .banner-section {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.banner-title {
+  font-size: 48px;
+
+  color: black;
+  margin-bottom: 75px;
+}
+
+@media screen and (max-width: 767px) {
+  .banner-title {
+    font-size: 24px;
+    margin-bottom: 35px;
+  }
+}

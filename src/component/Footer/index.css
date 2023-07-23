@@ -1,0 +1,28 @@
+.footer-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  height: 10vh;
+  padding: 15px;
+}
+
+.footer-images-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.footer-details {
+  color: black;
+  font-weight: 300;
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-details {
+    color: white;
+    font-size: 9px;
+    margin-top: 12px;
+    text-align: center;
+  }
+}
